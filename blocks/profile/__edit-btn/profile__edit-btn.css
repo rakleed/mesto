@@ -1,0 +1,11 @@
+.profile__edit-btn {
+  background-color: unset;
+  padding: 0;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: opacity 0.4s;
+}
+
+.profile__edit-btn:hover {
+  opacity: 0.6;
+}
