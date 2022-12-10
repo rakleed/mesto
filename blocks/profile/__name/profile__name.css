@@ -12,9 +12,16 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 1000px) {
+  .profile__name {
+    max-width: 350px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .profile__name {
     font-size: 32px;
+    max-width: 250px;
   }
 }
 
@@ -25,5 +32,12 @@
     text-align: center;
     padding: 0 6px 7px 0;
     margin-left: 30px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .profile__name {
+    max-width: 200px;
   }
 }

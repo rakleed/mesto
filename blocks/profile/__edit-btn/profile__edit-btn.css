@@ -4,8 +4,15 @@
   border: 1px solid #fff;
   cursor: pointer;
   transition: opacity 0.4s;
+  transform: translateY(-20px);
 }
 
 .profile__edit-btn:hover {
   opacity: 0.6;
+}
+
+@media screen and (max-width: 500px) {
+  .profile__edit-btn {
+    transform: translateY(-15px);
+  }
 }
