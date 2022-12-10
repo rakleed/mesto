@@ -5,3 +5,11 @@
   height: 10px;
   padding: 6px;
 }
+
+@media screen and (max-width: 500px) {
+  .profile__edit-icon {
+    width: 8px;
+    height: 8px;
+    padding: 4px;
+  }
+}

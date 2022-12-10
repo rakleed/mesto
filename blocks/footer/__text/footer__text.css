@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 500px) {
   .footer__text {
+    font-size: 14px;
     padding: 24px 0 36px;
   }
 }
