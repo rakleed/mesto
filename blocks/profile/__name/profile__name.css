@@ -1,4 +1,5 @@
 .profile__name {
+  max-width: 500px;
   display: inline-block;
   color: #fff;
   margin: 0;
