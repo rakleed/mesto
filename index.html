@@ -18,13 +18,13 @@
       <img class="profile__avatar" src="./images/profile-photo.jpg" alt="Фото Жак Ив Кусто">
       <div class="profile__info">
         <h1 class="profile__name">Жак-Ив Кусто</h1>
-        <button class="profile__edit-btn">
+        <button class="profile__edit-btn" type="button" onclick="window.popup.showModal();">
           <span class="profile__edit-icon"></span>
         </button>
         <p class="profile__about">Исследователь океана</p>
       </div>
     </div>
-    <button class="profile__add-btn"></button>
+    <button class="profile__add-btn" type="button"></button>
   </section>
 
   <section class="cards">
@@ -34,7 +34,7 @@
           <img class="card__image" src="./images/photo-karachayevsk.jpg" alt="Фото Карачаевска">
           <div class="card__description">
             <h2 class="card__title">Карачаевск</h2>
-            <button class="card__like-btn"></button>
+            <button class="card__like-btn" type="button"></button>
           </div>
         </div>
       </li>
@@ -43,7 +43,7 @@
           <img class="card__image" src="./images/photo-elbrus.png" alt="Фото горы Эльбрус">
           <div class="card__description">
             <h2 class="card__title">Гора Эльбрус</h2>
-            <button class="card__like-btn"></button>
+            <button class="card__like-btn" type="button"></button>
           </div>
         </div>
       </li>
@@ -52,7 +52,7 @@
           <img class="card__image" src="./images/photo-dombai.png" alt="Фото горы Домбай">
           <div class="card__description">
             <h2 class="card__title">Домбай</h2>
-            <button class="card__like-btn"></button>
+            <button class="card__like-btn" type="button"></button>
           </div>
         </div>
       </li>
@@ -61,7 +61,7 @@
           <img class="card__image" src="./images/photo-elbrus.png" alt="Фото горы Эльбрус">
           <div class="card__description">
             <h2 class="card__title">Гора Эльбрус</h2>
-            <button class="card__like-btn"></button>
+            <button class="card__like-btn" type="button"></button>
           </div>
         </div>
       </li>
@@ -70,7 +70,7 @@
           <img class="card__image" src="./images/photo-dombai.png" alt="Фото горы Домбай">
           <div class="card__description">
             <h2 class="card__title">Домбай</h2>
-            <button class="card__like-btn"></button>
+            <button class="card__like-btn" type="button"></button>
           </div>
         </div>
       </li>
@@ -79,7 +79,7 @@
           <img class="card__image" src="./images/photo-karachayevsk.jpg" alt="Фото Карачаевска">
           <div class="card__description">
             <h2 class="card__title">Карачаево-Черкессия</h2>
-            <button class="card__like-btn"></button>
+            <button class="card__like-btn" type="button"></button>
           </div>
         </div>
       </li>
@@ -90,5 +90,16 @@
     <p class="footer__text">&copy; 2022 Mesto Russia</p>
   </footer>
 
+  <dialog class="popup" id="popup">
+    <div class="popup__container">
+      <form class="popup__form" action="">
+        <p class="popup__title">Редактировать профиль</p>
+        <input class="popup__name-input" type="text" name="name" id="name" required value="Жак-Ив Кусто">
+        <input class="popup__about-input" type="text" name="about" id="about" required value="Исследователь океана">
+        <button class="popup__save-btn" type="button" onclick="window.popup.close();">Сохранить</button>
+        <button class="popup__close-btn" type="button" onclick="window.popup.close();"></button>
+      </form>
+    </div>
+  </dialog>
 </body>
 </html>

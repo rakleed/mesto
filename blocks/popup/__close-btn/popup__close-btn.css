@@ -1,0 +1,23 @@
+.popup__close-btn {
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  background: url(../../../images/close-icon.svg) no-repeat center / 32px 32px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.4s;
+  color-scheme: dark;
+}
+
+.popup__close-btn:hover {
+  opacity: 0.6;
+}
+
+.popup__close-btn:focus {
+  /*outline: none;*/
+  border: none;
+}
+
