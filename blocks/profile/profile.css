@@ -4,5 +4,23 @@
   align-items: center;
   max-width: 880px;
   margin: 0 auto;
-  padding: 20px 0 25px;
+  padding: 20px 40px 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .profile {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profile {
+    padding: 21px 30px 18px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .profile {
+    padding: 21px 20px 18px;
+  }
 }

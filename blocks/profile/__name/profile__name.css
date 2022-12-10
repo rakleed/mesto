@@ -9,3 +9,18 @@
   font-weight: 500;
   line-height: 1.14;
 }
+
+@media screen and (max-width: 750px) {
+  .profile__name {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profile__name {
+    font-size: 27px;
+    line-height: 1.22;
+    text-align: center;
+    padding-bottom: 14px;
+  }
+}

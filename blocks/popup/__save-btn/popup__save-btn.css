@@ -16,3 +16,8 @@
   opacity: 0.8;
 }
 
+@media screen and (max-width: 600px) {
+  .popup__save-btn {
+    font-size: 14px;
+  }
+}
