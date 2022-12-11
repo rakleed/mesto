@@ -1,9 +1,8 @@
 .profile__edit-btn {
-  position: absolute;
-  top: 36px;
-  right: 0;
-  background: url(../../../images/edit-icon.svg) no-repeat center / 10px 10px;
-  padding: 11px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: url(../../../images/edit-icon.svg) no-repeat center;
   border: 1px solid #fff;
   cursor: pointer;
   transition: opacity 0.4s;
@@ -15,13 +14,8 @@
 
 @media screen and (max-width: 800px) {
   .profile__edit-btn {
+    width: 18px;
+    height: 18px;
     background-size: 7.5px 7.5px;
-    padding: 8px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .profile__edit-btn {
-    top: 154px;
   }
 }

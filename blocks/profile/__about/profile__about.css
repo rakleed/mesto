@@ -25,9 +25,8 @@
   .profile__about {
     font-size: 14px;
     text-align: center;
-    padding: 0 10px 33px;
     max-width: 300px;
-    margin: auto;
+    margin: 0 auto;
   }
 }
 
@@ -39,6 +38,6 @@
 
 @media screen and (max-width: 350px) {
   .profile__about {
-    max-width: 200px;
+    max-width: 210px;
   }
 }
