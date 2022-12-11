@@ -6,9 +6,9 @@
   flex-direction: column;
   justify-content: space-between;
   max-width: 880px;
-  height: 73px;
   margin: 0 auto;
   padding-top: 45px;
+  padding-bottom: 40px;
   border-width: 0 0 1px;
   border-color: rgba(84, 84, 84, .7);
   border-style: solid;
@@ -23,9 +23,6 @@
 
 @media screen and (max-width: 500px) {
   .header {
-    height: 55px;
-    padding-top: 28px;
-    padding-right: 0;
-    padding-left: 0;
+    padding: 28px 0 31px;
   }
 }
