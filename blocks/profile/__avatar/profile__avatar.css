@@ -6,8 +6,15 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .profile__avatar {
-    margin: 0 0 26px;
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .profile__avatar {
+    margin-right: 0;
+    margin-bottom: 26px;
   }
 }

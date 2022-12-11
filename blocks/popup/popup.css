@@ -15,12 +15,16 @@
 @media screen and (max-width: 600px) {
   .popup {
     width: 360px;
-    padding: 36px 0;
+    height: 398px;
+    padding: 38px 0;
   }
 }
 
 @media screen and (max-width: 450px) {
   .popup {
     width: 282px;
+    height: 394px;
+    padding-top: 36px;
+    padding-bottom: 36px;
   }
 }

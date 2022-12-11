@@ -11,7 +11,8 @@
 
 @media screen and (max-width: 500px) {
   .cards__list {
-    padding: 18px 0 24px;
+    padding-top: 18px;
+    padding-bottom: 24px;
   }
 }
 
