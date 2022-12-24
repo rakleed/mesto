@@ -1,28 +1,11 @@
 .view-image-popup {
-  max-width: calc(75vw + 80px);
   width: fit-content;
 }
 
 .view-image-popup[open] {
-  max-height: calc(75vh + 80px);
   height: fit-content;
 }
 
 .view-image-popup::backdrop {
   background-color: rgba(0, 0, 0, .9);
-}
-
-@media screen and (max-width: 600px) {
-  .view-image-popup {
-    max-width: 75vw;
-  }
-  .view-image-popup[open] {
-    max-height: calc(75vh + 76px);
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .view-image-popup[open] {
-    max-height: calc(75vh + 72px);
-  }
 }
