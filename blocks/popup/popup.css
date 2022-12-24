@@ -1,11 +1,23 @@
 .popup {
+  display: block;
+  opacity: 0;
+  overflow: hidden;
   width: 510px;
-  height: 410px;
-  padding: 40px;
+  height: 0;
+  padding: 0;
   border: none;
   background-color: rgba(255, 255, 255, 0);
   box-sizing: border-box;
   color-scheme: light;
+  /* TODO: solve the problem that the `animation` property doesn't work (see
+           https://codepen.io/geckotang/post/dialog-with-animation) */
+  transition: opacity 0.6s;
+}
+
+.popup[open] {
+  opacity: 1;
+  height: 410px;
+  padding: 40px;
 }
 
 .popup::backdrop {
@@ -15,6 +27,8 @@
 @media screen and (max-width: 600px) {
   .popup {
     width: 360px;
+  }
+  .popup[open] {
     height: 398px;
     padding: 38px 0;
   }
@@ -23,8 +37,10 @@
 @media screen and (max-width: 450px) {
   .popup {
     width: 282px;
+  }
+  .popup[open] {
     height: 394px;
     padding-top: 36px;
     padding-bottom: 36px;
-  }
+   }
 }

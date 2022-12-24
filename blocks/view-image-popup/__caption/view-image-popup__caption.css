@@ -1,0 +1,22 @@
+.view-image-popup__caption {
+  position: absolute;
+  bottom: 15px;
+  left: 40px;
+  margin: 0;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+@media screen and (max-width: 600px) {
+  .view-image-popup__caption {
+    left: 0;
+    bottom: 13px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .view-image-popup__caption {
+    bottom: 11px;
+  }
+}
