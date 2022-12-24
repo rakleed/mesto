@@ -11,7 +11,7 @@
   color-scheme: light;
   /* TODO: solve the problem that the `animation` property doesn't work (see
            https://codepen.io/geckotang/post/dialog-with-animation) */
-  transition: opacity 0.6s;
+  transition: opacity 0.4s;
 }
 
 .popup[open] {
